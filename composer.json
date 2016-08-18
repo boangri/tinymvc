@@ -1,0 +1,16 @@
+{
+    "name": "boangri/tinymvc",
+    "description": "tinyMVC mini framework",
+    "keywords": ["tinymvc", "framework"],
+    "homepage": "https://github.com/boangri/tinymvc",
+    "type": "project",
+    "version": "1.0.0",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["application/"]
+    }
+}
