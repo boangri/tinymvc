@@ -3,14 +3,27 @@
     "description": "tinyMVC mini framework",
     "keywords": ["tinymvc", "framework"],
     "homepage": "https://github.com/boangri/tinymvc",
-    "type": "project",
+    "type": "library",
     "version": "1.0.0",
     "license": "BSD-3-Clause",
-    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Vitaly Swipe",
+            "email": "vitalyswipe@gmail.com",
+            "homepage": "https://github.com/vitalyswipe",
+            "role": "Founder"
+        },
+        {
+            "name": "Boris Gribovskiy",
+            "email": "boangri@mail.ru",
+            "homepage": "http::/boangri.ru",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": ["application/"]
+        "psr-4": {"application\\" : ""}
     }
 }
