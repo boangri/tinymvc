@@ -14,7 +14,8 @@ class route
         $controller_name = 'main';
         $action_name = 'index';
 
-        $routes = explode('/', $_SERVER['REQUEST_URI']);
+        $uri = explode('?', $_SERVER['REQUEST_URI']);
+        $routes = explode('/', $uri[0]);
 
         // получаем имя контроллера
         if ( !empty($routes[1]) )
